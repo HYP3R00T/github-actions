@@ -1,0 +1,8 @@
+on:
+  workflow_dispatch: {}
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This might be the smallest workflow in the universe"
