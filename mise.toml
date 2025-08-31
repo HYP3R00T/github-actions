@@ -1,0 +1,9 @@
+[tools]
+pre-commit = "latest"
+
+[hooks]
+enter = "bash ./scripts/setup_project.sh"
+
+[settings]
+experimental = true
+lockfile = true
